@@ -21,7 +21,6 @@ BeachBallManager::~BeachBallManager()
 
 void BeachBallManager::spawn()
 {
-	std::cout << balls.size() << "\n";
 	ballCount = 0;
 	for (int i = 0; i < balls.size(); i++)
 	{

@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "Framework/Input.h"
 #include "BeachBallManager.h"
+#include "GoombaManager.h"
 #include <string>
 #include <iostream>
 
@@ -25,4 +26,7 @@ private:
 	sf::RenderWindow* window;
 	Input* input;
 	BeachBallManager beachBallManager;
+	GoombaManager goombaManager;
+	sf::Font font;
+	sf::Text text1;
 };
